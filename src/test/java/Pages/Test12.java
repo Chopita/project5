@@ -63,6 +63,8 @@ public class Test12 {
         String colorRgba = color.getCssValue("color");
         String expectedRgba = "rgba(138, 109, 59";
         Assert.assertTrue(colorRgba.contains(expectedRgba));
+        sout
+            
     }
 }
 
